@@ -1,7 +1,7 @@
 # Prosopo-Procaptcha
 Prosopo Procaptcha Solver / Almost Fully Reverse Engineered (For pow challenge)
 # 📘 Usage
-You can get solve Procaptcha (only PoW captcha), or Generate some parameters with this.
+You can solve Procaptcha (only PoW captcha), or Generate some parameters with this.
 ```py
 import prosopo
 
