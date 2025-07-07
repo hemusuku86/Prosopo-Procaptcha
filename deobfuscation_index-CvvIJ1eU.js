@@ -20,7 +20,6 @@ async function mx(...n) {
   }, n.z9sVTo, n["rLrD4v"]);
   return n["goQwR8Y"] > 94 ? n[n.goQwR8Y + 247] : ($ = [n.TI7kHGD], P(e(280)));
 }
-// Generate "token"
 const xe = n => {
   const a = Date["now"]();
   const s = F((Number(("" + a).slice(F(3, 13))) + n) / 999 * Math.PI, Math.PI / 2, 61);
