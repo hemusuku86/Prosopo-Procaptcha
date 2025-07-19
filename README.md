@@ -1,4 +1,6 @@
-# Prosopo-Procaptcha
+# ⚠️ Flagged
+Now this solver is flagged and always get image challenge, This repo got stared by prosopo developer and they patched💀
+# Procaptcha
 Prosopo Procaptcha Solver / Almost Fully Reverse Engineered (For pow challenge)
 # 📘 Usage
 You can solve Procaptcha (only PoW captcha), or Generate some parameters with this.
