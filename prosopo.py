@@ -58,7 +58,7 @@ def createAccount():
 
 # from index-CvvIJ1eU.js | Generate "token" for /frictionless request
 def mx(n):
-    public_key = "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtJjBk4884quOzXZYCnD/\ndXKAqPUkwtb76WtbG0rM5s2p2htyFT9Zo3PR/BT87OExVDfAy0iN1e2HGEQWsLAM\n8QZ7xWnG1zYolsARNhHAwv/IXsH1zUZmkujTaBpb8S4IHDHAjZLm7i4Qhr7lk/0n\nSJ+Oh2NtCkbKfjlsyoxMoN4IdE4u6T8cSn+AXwZ3F7Bk+NlkmzGMQHYeobD5Mstv\ncDsbwPCJstdnESnTxCiUSrS9SYCgxaxMB8TbmcVx5NImz0HbPZmj/nnpHJOIUR+T\nekMdw3FfZqAyAC4ARXlyWxZbOm0rF4B98HtXwVqfzcQmN9AzJBLW+p3/PXjvZECx\nZwIDAQAB\n-----END PUBLIC KEY-----\n"
+    public_key = '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4F1Z1sMWUz5fe6HjTSk6\nkL/i21GJ/Y3nehToIHJttYhz50NTjgiOgf4mbtVjGkgPwxX7xWCWHNuGGzyOdRpM\nOGTHPwUSc4xCp0LVdHxP2oUIaeXyzC/8kKoVzPZwt6omCcGTS28FdfIXOFvJdGCX\ndhOrJPw076fxyOHyrixiYb46Dz8vBSE+7JiayNudES24XDeSpgP86bMnFbBrDddA\nOMm/iw2GesrXzTE/hU46ZY1u55VpJHPS3d2nROlaU0gFCyhICtEUs5rnsSImkshj\n6XbYmcVIHeekz9JqrhVXmaSzw94FN7D2ob7uAQxnY7j0D7LUp+0WAyZyqOQqa06a\n2wIDAQAB\n-----END PUBLIC KEY-----\n'
     public_key = serialization.load_pem_public_key(
       public_key.encode("utf-8"),
       backend=default_backend()
